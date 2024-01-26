@@ -9,10 +9,24 @@ wird in style.css per @import eingebunden
 * 1. Globale Einstellungen für die gesamte Website
 */
 
+
+
 body {
   margin: 0;
   padding: 0;
   margin-top: 6rem;
+}
+
+.max__width {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.max {
+  max-width: 1100px;
 }
 
 :root {
