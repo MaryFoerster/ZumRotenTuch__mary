@@ -1245,6 +1245,7 @@ footer {
 }
  /* Style the navigation menu */
  .topnav {
+  z-index: 9990;
   overflow: hidden;
   background-color: var(--primary-color_rot);
   position: relative;
@@ -1546,34 +1547,42 @@ footer {
 
 
 
-    /* container__Datenschutz_Impressum =============================================== */
+    /* container__Datenschutz =============================================== */
     
-    .container__Datenschutz_Impressum {
+    .container__Datenschutz h2 {
+      font-size: 2rem;
+      margin: 0;
+      margin-top: 2rem;
+    }
+    .container__Datenschutz_ {
       width: 100%;
-      margin-top: 0rem;
       margin-bottom: 5rem;
     }
-    
-    .container__Datenschutz_Impressum {
+    .container__Datenschutz a {
+      width: 100%;
+    }
+    .container__Datenschutz {
       display: grid;
       grid-template-columns: [outer-start] 1fr
                              [center-start] 1fr 
                              [center-end] 1fr [outer-end];
-      grid-template-rows: 1fr 1fr;
+      grid-template-rows: 1fr 0fr;
     }
     
-    .box1__Datenschutz_Impressum {
+    .box1__Datenschutz {
       grid-column: outer-start / outer-end;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: start;
       align-items: center;
       padding-left: 2rem;
       padding-right: 2rem;
       margin-top: 6rem;
+      margin-bottom: 6rem;
+      padding-bottom: 0;
     }
     
-    .box2__Datenschutz_Impressum {
+    .box2__Datenschutz {
       grid-column: outer-start / outer-end;
       display: flex;
       flex-direction: column;
@@ -1581,43 +1590,143 @@ footer {
       align-items: center;
       padding-left: 2rem;
       padding-right: 2rem;
+      margin: 0;
+      padding-top: 0;
     }
     
     @media screen and (min-width: 1150px) {
-      .container__Datenschutz_Impressum {
+      .container__Datenschutz {
         display: grid;
         grid-template-columns: [outer-start] 1fr
                                [center-end] 1fr [outer-end];
         grid-template-rows: 1fr 0fr;
       }
-      .container__Datenschutz_Impressum {
+      .container__Datenschutz {
         width: 100%;
-        margin-top: 7rem;
+        margin-top: 4rem;
+      }
+      .container__Datenschutz h1 {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 2rem;
       }
       
-      .box1__Datenschutz_Impressum {
+      .box1__Datenschutz {
         grid-column: outer-start / center-end;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         align-items: start;
-        padding-left: 6rem;
-        padding-right: 6rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
         margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 6rem;
       }
-      
-      .box2__Datenschutz_Impressum {
+      .box2__Datenschutz {
         grid-column: center-end / outer-end;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        padding-left: 6rem;
-        padding-right: 6rem;
+        padding-left: rem;
+        padding-right: 0rem;
       }
     }
     
-    /* container__Datenschutz_Impressum =============================================== */
+    /* container__Datenschutz =============================================== */
+  
+
+
+    /* container__Impressum =============================================== */
+    
+    .container__Impressum h2 {
+      font-size: 2rem;
+      margin: 0;
+      margin-top: 2rem;
+    }
+    .container__Impressum a {
+      width: 100%;
+    }
+    .container__Impressum {
+      width: 100%;
+      margin-bottom: 5rem;
+    }
+    
+    .container__Impressum {
+      display: grid;
+      grid-template-columns: [outer-start] 1fr
+                             [center-start] 1fr 
+                             [center-end] 1fr [outer-end];
+      grid-template-rows: 1fr 0fr;
+    }
+    
+    .box1__Impressum {
+      grid-column: outer-start / outer-end;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      margin-top: 6rem;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    
+    .box2__Impressum {
+      grid-column: outer-start / outer-end;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      margin: 0;
+      padding-top: 0;
+    }
+    
+    @media screen and (min-width: 1150px) {
+      .container__Impressum {
+        display: grid;
+        grid-template-columns: [outer-start] 1fr
+                               [center-end] 1fr [outer-end];
+        grid-template-rows: 1fr 0fr;
+      }
+      .container__Impressum {
+        width: 100%;
+        margin-top: 4rem;
+      }
+      .container__Impressum h1 {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 2rem;
+      }
+      
+      .box1__Impressum {
+        grid-column: outer-start / center-end;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 0;
+        padding-top: 0;
+      }
+      .box2__Impressum {
+        grid-column: center-end / outer-end;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+    }
+    
+    /* container__Impressum =============================================== */
+  
   
   
 
@@ -1629,6 +1738,22 @@ footer {
       margin-top: 5rem;
       margin-bottom: 10rem;
     }
+    .section__panel h6 {
+      margin: 0;
+      padding: 0;
+      font-size: 1rem;
+    }
+    .section__panel p {
+      margin: 0;
+      padding: 0;
+      font-size: 1rem;
+    }
+    .section__panel button {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
     
     .container__accordion {
       width: 100%;
@@ -1643,6 +1768,7 @@ footer {
  .accordion {
   color: white;
   cursor: pointer;
+  background-color: #920d0d;
   padding: 18px;
   text-align: left;
   border: none;
@@ -1653,14 +1779,15 @@ footer {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .activeA, .accordion:hover {
-  background-color: #ccc;
+  opacity: 0.5;
   color: white;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
-  background-color: white;
+  background-color:var(--primary-color-grün);
+  color: white;
   display: none;
   padding: 2rem;
   width: 100%;
@@ -1669,7 +1796,7 @@ footer {
 .accordion::after {
   color: rgb(255, 255, 255);
   content: '+'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
+  font-size: 1rem;
   float: right;
   margin-left: 5px;
 }
@@ -1677,6 +1804,7 @@ footer {
 .activeA::after {
   color: rgb(255, 255, 255);
   content: "-"; /* Unicode character for "minus" sign (-) */
+  font-size: 1rem;
 }
 
 @media screen and (min-width: 900px){
@@ -1688,12 +1816,13 @@ footer {
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .activeA, .accordion:hover {
-    background-color: #20b60f;
+    opacity: 0.5;
   }
   
   /* Style the accordion panel. Note: hidden by default */
   .panel {
-    background-color: rgb(203, 117, 117);
+    background-color:var(--primary-color-grün);
+    color: white;
     width: 40rem;
   } 
 
@@ -1717,10 +1846,14 @@ footer {
 .container__MaerkteKarte {
 margin-top: 5rem;
 }
+.container__MaerkteKarte h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  }
 
 .box1__MaerkteKarte {
   grid-column: outer-start / outer-end;
-  background-color: orangered;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1750,13 +1883,11 @@ margin-top: 5rem;
   
   .box1__MaerkteKarte {
     grid-column: outer-start / center-end;
-    background-color: orangered;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
     padding-left: 8rem;
     padding-right: 8rem;
+    width: 40rem;
+    height: 30rem;
   }
   
   .box2__MaerkteKarte {
@@ -1765,7 +1896,64 @@ margin-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 30rem;
+    height: 30rem;
   }
 }
 
 /* container__MaerkteKarte =============================================== */
+
+
+
+
+
+
+/* svg----------------------------------------- */
+#Ebene_2 {
+  width: 35rem;
+}
+
+#Kärnten:hover {
+  fill: red;
+  cursor: pointer;
+}
+#Steiermark:hover {
+  fill: red;
+  cursor: pointer;
+}
+#Italien:hover {
+  fill: red;
+  cursor: pointer;
+}
+#Niederösterreich:hover {
+  fill: red;
+  cursor: pointer;
+}
+#Burgenland:hover {
+  fill: red;
+  cursor: pointer;
+}
+#Deutschland:hover {
+  fill: red;
+  cursor: pointer;
+}
+#Wien:hover {
+  fill: red;
+  cursor: pointer;
+}
+#Oberösterreich:hover {
+  fill: red;
+  cursor: pointer;
+}
+#Salzburg:hover {
+  fill: red;
+  cursor: pointer;
+}
+#Tirol:hover {
+  fill: red;
+  cursor: pointer;
+}
+
+
+
+/* svg----------------------------------------- */
