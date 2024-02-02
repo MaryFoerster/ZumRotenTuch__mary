@@ -44,7 +44,8 @@ body {
 
 :root {
   --primary-color_rot: #620000;
-  --primary-color-grün: #1D1400;
+  --primary-color-grün: rgb(36, 44, 0);
+  --primary-color-blau: #001038;
 }
 
 /* almendra-sc-regular - latin */
@@ -55,8 +56,44 @@ body {
   font-weight: 400;
   src: url('../font/AlmendraSC-Regular.ttf') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
+/* alegreya-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/alegreya-sans-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* alegreya-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'alegreya Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../font/alegreya-sans-v24-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Almendra SC';
+ }
+
+ p {
+  font-family: 'Alegreya Sans';
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  word-spacing: 5px;
+ }
+ @media screen and (min-width: 900px) {
+  p {
+    font-family: 'Alegreya Sans';
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    word-spacing: 5px;
+   }
  }
 
 *,
