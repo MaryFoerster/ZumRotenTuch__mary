@@ -12,73 +12,52 @@
 <body>
 
 <!-- nav =============================================== -->
- <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
- <!-- Top Navigation Menu -->
- <div class="topnav">
-   <a href="index.html" class="active"><img class="imgnav" src="img/zrtLogo.png" alt="Link zum Zum Roten Tuch Logo" title="Zum Roten Tuch Logo"></a>
-   <!-- Navigation links (hidden by default) -->
-   <div id="myLinks" class="myLink">
-     <div class="navBox1"><a alt="Link zur Über Uns Seite" title="Über Uns" href="ueberUns.html">Über Uns</a></div>
-     <div class="navBox2"><a alt="Link zur Märkte Seite" title="Märkte" href="Maerkte.html">Märkte</a></div>
-     <div class="navBox3"><a href="index.html"><img src="img/zrtLogo.png" alt="Link zum Zum Roten Tuch Logo" title="Zum Roten Tuch Logo"></a></div>
-     <div class="navBox4"><a alt="Link zur Produkte Seite" title="Produkte" href="Produkte.html">Produkte</a></div>
-     <div class="navBox5"><a alt="Link zur Kontakt Seite" title="Kontakt" href="Kontakt.html">Kontakt</a></div>
-   </div>
-   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-     <i class="fa fa-bars"></i>
-   </a>
- </div> 
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="index.html" class="active"><img class="imgnav" src="img/zrtLogo.png" alt="Link zum Zum Roten Tuch Logo" title="Zum Roten Tuch Logo"></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks" class="myLink">
+    <div class="navBox1"><a alt="Link zur Über Uns Seite" title="Über Uns" href="ueberUns.html">Über Uns</a></div>
+    <div class="navBox2"><a alt="Link zur Märkte Seite" title="Märkte" href="Maerkte.html">Märkte</a></div>
+    <div class="navBox3"><a href="index.html"><img src="img/zrtLogo.png" alt="Link zum Zum Roten Tuch Logo" title="Zum Roten Tuch Logo"></a></div>
+    <div class="navBox4"><a alt="Link zur Produkte Seite" title="Produkte" href="Produkte.html">Produkte</a></div>
+    <div class="navBox5"><a alt="Link zur Kontakt Seite" title="Kontakt" href="Kontakt.html">Kontakt</a></div>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div> 
 <!-- nav =============================================== -->
 
 
   <header>
-    <!-- container__headerHome =============================================== -->
-    <div class="container__headerHome">
-      <div class="box1__headerHome">
-        <img src="img/zrtLogo.png" alt="">
-      </div>
-      <div class="box2__headerHome">
-        <h2>Zum Roten Tuch</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem perspiciatis temporibus cupiditate
-          natus, dicta incidunt magnam! Distinctio, nobis labore expedita maiores facilis, dicta non aperiam, sapiente
-          quaerat voluptatibus libero perferendis? Voluptatibus necessitatibus sapiente modi earum totam illum, ipsa,
-          libero dolore est voluptatem, ea harum sunt eaque! Corrupti, repellat eaque. Quis dolorem quia, nemo ullam cum
-          molestiae, commodi nesciunt inventore labore vitae sint excepturi possimus eveniet maxime eius quos voluptatem
-          pariatur amet suscipit modi sit. Tempore a, dignissimos eius, impedit distinctio, voluptatum repudiandae
-          perferendis suscipit sed eveniet autem minus quas! Minima eos eligendi, ratione temporibus deleniti
-          voluptatibus eum dolor numquam recusandae.</p>
-      </div>
-    </div>
-    <!-- container__headerHome =============================================== -->
+          <!-- container__headerHome =============================================== -->
+          <div class="container__headerHome">
+            <div class="box1__headerHome">
+              <img src="img/zrtLogo.png" alt="">
+            </div>
+            <div class="box2__headerHome">
+              <h2>Zum Roten Tuch</h2>
+              <p>Unter dem Wappen "Zum roten Tuch"
+                hüllen wir Sie in Gewänder lang
+                vergessener Zeiten und legendärer Kulturen.
+                Unser Familienunternehmen ist der
+                perfekte Ansprechpartner
+                für authentische mittelalterliche Bekleidung.</p>
+            </div>
+          </div>
+          <!-- container__headerHome =============================================== -->
   </header>
 
   <main>
     <section>
-      <!-- container__GalerieHome =============================================== -->
-      <div class="container__GalerieHome">
-        <div class="box1__GalerieHome">
+        <div class="headerBtn">
+          <a href="Produkte.html"><button class="btn_Galerie"><h5>Produkte</h5></button></a>
         </div>
-        <div class="box2__GalerieHome">
-        </div>
-        <div class="box3__GalerieHome">
-        </div>
-      </div>
-      <!-- container__GalerieHome =============================================== -->
-    </section>
-
-    <section>
-      <!-- container__imgBtnHome =============================================== -->
-      <div class="container__imgBtnHome">
-        <div class="box1__imgBtnHome">
-        </div>
-        <div class="box2__imgBtnHome">
-          <a href=""><button class="btn">Hallo</button></a>
-        </div>
-      </div>
-      <!-- container__imgBtnHome =============================================== -->
     </section>
 
     <section>
@@ -87,18 +66,12 @@
         <!-- container__MärkteBtnHome =============================================== -->
         <div class="container__MärkteBtnHome">
           <div class="box1__MärkteBtnHome">
-            <h2>Einleitung</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem perspiciatis temporibus cupiditate
-              natus, dicta incidunt magnam! Distinctio, nobis labore expedita maiores facilis, dicta non aperiam, sapiente
-              quaerat voluptatibus libero perferendis? Voluptatibus necessitatibus sapiente modi earum totam illum, ipsa,
-              libero dolore est voluptatem, ea harum sunt eaque! Corrupti, repellat eaque. Quis dolorem quia, nemo ullam
-              cum molestiae, commodi nesciunt inventore labore vitae sint excepturi possimus eveniet maxime eius quos
-              voluptatem pariatur amet suscipit modi sit. Tempore a, dignissimos eius, impedit distinctio, voluptatum
-              repudiandae perferendis suscipit sed eveniet autem minus quas! Minima eos eligendi, ratione temporibus
-              deleniti voluptatibus eum dolor numquam recusandae.</p>
+            <h2>Was wir tun</h2>
+            <p>
+              Wir sind eine Schneiderei, die auf das Herstellen und Verkaufen mittelalterlicher Gewandung spezialisiert ist. Neben unseren Kollektionen bieten wir auch individuelle Maßschneiderei an. Wir stehen für authentische, praktische Bekleidung, die mit qualitativ hochwertigen Materialien und erstklassiger Verarbeitung von uns gefertigt wird.</p>
           </div>
           <div class="box2__MärkteBtnHome">
-            <a href=""><button class="btn">Hakkklo</button></a>
+            <a href="Maerkte.html"><button class="btn_Home"><h5>Märkte</h5></button></a>
           </div>
         </div>
         <!-- container__MärkteBtnHome =============================================== -->
@@ -110,15 +83,13 @@
 
   </main>
 
-
 <!-- footer__typ1 =============================================== -->
 <div class="footerTop"></div>
 <footer>
         <div class="footer_container">
             <div class="footer__box1">
-                <a href="Impressum.html" alt="link zum Impressum" title="Impressum">Impressum</a>
+              <a href="Impressum.html" alt="link zum Impressum" title="Impressum">Impressum/AGB</a>
                 <a href="Datenschutz.html" alt="link zum Datenschutz" title="Datenschutz">Datenschutz</a>
-                <a href="#" alt="link zur PDF der AGB" title="AGB">AGB</a>
             </div>
             <div class="footer__box2">
                 <a href="index.html"><img src="img/zrtLogo.png" alt="Link zum Zum Roten Tuch Logo" title="Zum Roten Tuch Logo"></a>
@@ -132,11 +103,11 @@
 <!-- footer__typ1 =============================================== -->
   
 
-<script>/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-  function myFunction() {
-  var x = document.getElementById("myLinks");
-  x.classList.toggle("show");
-}
+<script>
+  function toggleMenu() {
+    var x = document.getElementById("myLinks");
+    x.classList.toggle("show");
+  }
   </script>
 </body>
 

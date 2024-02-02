@@ -6,77 +6,29 @@
   <title>Über Uns</title>
   <link rel="icon" type="image/x-icon" href="/img/favicon.png">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
-  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
-  <style type="text/css">
-    html, body {
-      margin: 0;
-      padding: 0;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    .slider {
-        width: 50%;
-        margin: 100px auto;
-    }
-
-    .slick-slide {
-      margin: 0px 20px;
-    }
-
-    .slick-slide img {
-      width: 100%;
-    }
-
-    .slick-prev:before,
-    .slick-next:before {
-      color: black;
-    }
-
-
-    .slick-slide {
-      transition: all ease-in-out .3s;
-      opacity: .2;
-    }
-    
-    .slick-active {
-      opacity: .5;
-    }
-
-    .slick-current {
-      opacity: 1;
-    }
-    img {
-      width: 13rem;
-      height: 13rem;
-    }
-  </style>
 </head>
 <body>
 
 <!-- nav =============================================== -->
- <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
- <!-- Top Navigation Menu -->
- <div class="topnav">
-   <a href="index.html" class="active"><img class="imgnav" src="img/zrtLogo.png" alt="Link zum Zum Roten Tuch Logo" title="Zum Roten Tuch Logo"></a>
-   <!-- Navigation links (hidden by default) -->
-   <div id="myLinks" class="myLink">
-     <div class="navBox1"><a alt="Link zur Über Uns Seite" title="Über Uns" href="ueberUns.html">Über Uns</a></div>
-     <div class="navBox2"><a alt="Link zur Märkte Seite" title="Märkte" href="Maerkte.html">Märkte</a></div>
-     <div class="navBox3"><a href="index.html"><img src="img/zrtLogo.png" alt="Link zum Zum Roten Tuch Logo" title="Zum Roten Tuch Logo"></a></div>
-     <div class="navBox4"><a alt="Link zur Produkte Seite" title="Produkte" href="Produkte.html">Produkte</a></div>
-     <div class="navBox5"><a alt="Link zur Kontakt Seite" title="Kontakt" href="Kontakt.html">Kontakt</a></div>
-   </div>
-   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-     <i class="fa fa-bars"></i>
-   </a>
- </div> 
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="index.html" class="active"><img class="imgnav" src="img/zrtLogo.png" alt="Link zum Zum Roten Tuch Logo" title="Zum Roten Tuch Logo"></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks" class="myLink">
+    <div class="navBox1"><a alt="Link zur Über Uns Seite" title="Über Uns" href="ueberUns.html">Über Uns</a></div>
+    <div class="navBox2"><a alt="Link zur Märkte Seite" title="Märkte" href="Maerkte.html">Märkte</a></div>
+    <div class="navBox3"><a href="index.html"><img src="img/zrtLogo.png" alt="Link zum Zum Roten Tuch Logo" title="Zum Roten Tuch Logo"></a></div>
+    <div class="navBox4"><a alt="Link zur Produkte Seite" title="Produkte" href="Produkte.html">Produkte</a></div>
+    <div class="navBox5"><a alt="Link zur Kontakt Seite" title="Kontakt" href="Kontakt.html">Kontakt</a></div>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div> 
 <!-- nav =============================================== -->
 
 
@@ -90,13 +42,36 @@
         <!-- container__ueberUns =============================================== -->
         <div class="container__ueberUns">
           <div class="box1__ueberUns">
-              <h2>Über Uns</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem perspiciatis temporibus cupiditate natus, dicta incidunt magnam! Distinctio, nobis labore expedita maiores facilis, dicta non aperiam, sapiente quaerat voluptatibus libero perferendis? Voluptatibus necessitatibus sapiente modi earum totam illum, ipsa, libero dolore est voluptatem, ea harum sunt eaque! Corrupti, repellat eaque. Quis dolorem quia, nemo ullam cum molestiae, commodi nesciunt inventore labore vitae sint excepturi possimus eveniet maxime eius quos voluptatem pariatur amet suscipit modi sit. Tempore a, dignissimos eius, impedit distinctio, voluptatum repudiandae perferendis suscipit sed eveniet autem minus quas! Minima eos eligendi, ratione temporibus deleniti voluptatibus eum dolor numquam recusandae.</p>
+            <h1>Über Uns</h1>
+              <h2>Die Schneiderei</h2>
+              <p>Was wir tun
+                Wir sind eine Schneiderei, die auf das Herstellen und Verkaufen mittelalterlicher Gewandung spezialisiert ist. Neben unseren Kollektionen bieten wir auch individuelle Maßschneiderei an. Wir stehen für authentische, praktische Bekleidung, die mit qualitativ hochwertigen Materialien und erstklassiger Verarbeitung von uns gefertigt wird.
+                <br>
+                <br>
+                <h2>Wie wir das tun</h2>
+                <br>
+                <p>
+                Wir verwenden zur Herstellung unserer Bekleidung ausschließlich Naturstoffe wie Leinen, Wolle und Walkstoff. Wir achten darauf, dass unsere Stoffe aus Europa stammen und orientieren uns bei der Verarbeitung an der historischen Aufbereitung der jeweiligen Epoche. Wir legen großen Wert auf ansprechende Farben und sind bemüht dabei dem Wunsch unserer Kunden gerecht zu werden. Natürlich achten wir dabei darauf, dass wir vorwiegend Farben wählen, die auch damals verwendet wurden. Sichtbare Nähte fertigen wir von Hand um die Authentizität unserer Produkte zu gewährleisten und sie optisch aufzuwerten.</p>
+                <br>
+                <h2>Wo wir sind </h2>
+                <br>
+                <p>
+            Wir stellen unsere Waren in unserer 220m2 großen Schneiderei mit Lager in Mils bei Hall in Tirol her. Zu kaufen gibt es unsere Bekleidung hier über unsere Homepage, über Facebook oder auf ETSY (Links?). Vor allem aber freuen wir uns unsere Kunden auf über 30 Märkten, Festen und Veranstaltungen in Österreich, Deutschland, Italien und der Schweiz zu treffen, wo wir unsere Waren in unseren Marktzelten und Ständen feilbieten.
+              Dabei bieten wir dem Kunden die Möglichkeit uns, unsere Produkte und deren hohe Qualität persönlich kennenzulernen. Wir bieten ein breites Spektrum an Bekleidung und sind stolz darauf trotz hoher Qualität und Handarbeit eine große Auswahl anbieten zu können. Unsere Gewandung gibt es selbstverständlich in vielen unterschiedlichen Größen. 
+
+                </p>
           </div>
           <div class="box2__ueberUns">
-              <h2>Unser Atelier</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem perspiciatis temporibus cupiditate natus, dicta incidunt magnam! Distinctio, nobis labore expedita maiores facilis, dicta non aperiam, sapiente quaerat voluptatibus libero perferendis? Voluptatibus necessitatibus sapiente modi earum totam illum, ipsa, libero dolore est voluptatem, ea harum sunt eaque! Corrupti, repellat eaque. Quis dolorem quia, nemo ullam cum molestiae, commodi nesciunt inventore labore vitae sint excepturi possimus eveniet maxime eius quos voluptatem pariatur amet suscipit modi sit. Tempore a, dignissimos eius, impedit distinctio, voluptatum repudiandae perferendis suscipit sed eveniet autem minus quas! Minima eos eligendi, ratione temporibus deleniti voluptatibus eum dolor numquam recusandae.</p>
-          </div>
+            <p>
+            Sollte dennoch ein Kundenwunsch unerfüllt bleiben, schneidern wir gerne nach Maß und individuellen Vorstellungen. Auf den Märkten wird Zum roten Tuch ausschließlich von der Familie selbst präsentiert. Damit wollen wir gewährleisten, dass wir unsere Kunden vor Ort und persönlich beraten und in unsere Welt einführen können. Wir stehen dabei mit Rat und Tat, mit Hintergrundwissen, aber vor allem mit Begeisterung zur Verfügung. Wo Zum roten Tuch drauf steht ist also auch Zum roten Tuch drin!<br>
+              <br>
+              Wie wir zur historischen Gewandung gefunden haben
+              Am Anfang war die Neugier. Und die hat Moni dazu bewogen sich von ihrem täglichen Brot – dem schneidern zeitgemäßer Alltagskleidung – zu verabschieden und sich aufzumachen neue Herausforderungen zu finden. Wie das Leben so spielt entdeckte sie dieses Neue im Altbewehrten: Leinen, Wolle und Walkstoff kunstvoll zu historischer Gewandung geschneidert. Nach intensivem Studium historischer Schneiderei und dem Eintauchen in die besondere und faszinierende Welt der Mittelaltermärkte  und –feste stand der Entschluss fest und Zum roten Tuch war geboren. 
+              Über die Jahre haben wir unsere Fertigkeiten und damit unser Angebot stetig weiterentwickelt und haben uns zu einem festen Bestandteil der deutschsprachigen Mittelalterszene gemausert. 
+              Zum roten Tuch – unter diesem Wappen hüllen Sie sich in Gewänder längst vergessener Zeiten und legendären Kulturen.!
+              </p>
+              <img src="img/ueberUns.jpg" alt="">
+            </div>
         </div>
         <!-- container__ueberUns =============================================== -->
       </div>
@@ -104,28 +79,38 @@
   </section>
 
 
+  <div class="img_container">
+    <!-- img --------------- -->
+    <!-- The grid: four columns -->
+    <div class="row">
+      <div class="column">
+        <img src="img/ueberUns1.jpg"Nature" onclick="expandImage(this);">
+      </div>
+      <div class="column">
+        <img src="img/ueberUns2.gif" onclick="expandImage(this);">
+      </div>
+      <div class="column">
+        <img src="img/ueberUns3.png" onclick="expandImage(this);">
+      </div>
+      <div class="column">
+        <img src="img/ueberUns4.jpg" onclick="expandImage(this);">
+      </div>
+    </div>
+  
+    <!-- The expanding image container -->
+    <div class="container">
+      <!-- Close the image -->
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  
+      <!-- Expanded image -->
+      <img id="expandedImg" style="width:100%">
+  
+      <!-- Image text -->
+      <div id="imgtext"></div>
+    </div> 
+    <!-- img --------------- -->
+  </div>
 
-    <section class="variable slider">
-      <div>
-        <img src="img/BurgRot.png" alt="">
-      </div>
-      <div>
-        <img src="img/BurgRot.png" alt="">
-      </div>
-      <div>
-        <img src="img/BurgRot.png" alt="">
-      </div>
-      <div>
-        <img src="img/BurgRot.png" alt="">
-      </div>
-      <div>
-        <img src="http://placehold.it/350x300?text=5">
-      </div>
-      <div>
-        <img src="http://placehold.it/300x300?text=6">
-      </div>
-    </section>
-    
 
     <section>
     <div class="max__width">
@@ -133,8 +118,11 @@
         <!-- container__ueberUnsGeschichte =============================================== -->
         <div class="container__ueberUnsGeschichte">
           <div class="box1__ueberUnsGeschichte">
-              <h2>Unsere Geschichte</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem perspiciatis temporibus cupiditate natus, dicta incidunt magnam! Distinctio, nobis labore expedita maiores facilis, dicta non aperiam, sapiente quaerat voluptatibus libero perferendis? Voluptatibus necessitatibus sapiente modi earum totam illum, ipsa, libero dolore est voluptatem, ea harum sunt eaque! Corrupti, repellat eaque. Quis dolorem quia, nemo ullam cum molestiae, commodi nesciunt inventore labore vitae sint excepturi possimus eveniet maxime eius quos voluptatem pariatur amet suscipit modi sit. Tempore a, dignissimos eius, impedit distinctio, voluptatum repudiandae perferendis suscipit sed eveniet autem minus quas! Minima eos eligendi, ratione temporibus deleniti voluptatibus eum dolor numquam recusandae.</p>
+            <h2>Wer wir sind</h2>
+              <br>
+              <p>
+              Wir, das ist ein mit Leidenschaft und Herzblut geführtes Familienunternehmen. Familienoberhaupt und kreativer Kopf ist Moni, zuständig für die Entwürfe, die Stoffwahl, das Schneidern und bringt fundiertes historisches Wissen mit. Thomas, der Erstgeborene und , ist zuständig für den Zuschnitt der Stoffe, die Konstruktion unserer Marktzelte und Stände sowie für das technische Drumherum. Oliver, zweiter Sohn und , kümmert sich um alle wirtschaftlichen und organisatorischen Belange, vom Kassazettel bis hin zum Marktkalender.  
+            </p>
           </div>
           <div class="box2__ueberUnsGeschichte">
             <img src="img/geschichte.jpg" alt="">
@@ -145,28 +133,6 @@
     </div>
     </section>
 
-    <section>
-      <div class="max__width">
-        <div class="max">
-            <!-- container__mitarbeiter =============================================== -->
-            <div class="container__mitarbeiter">
-              <div class="box1__mitarbeiter">
-                <img src="img/platzhalter2.jpg" alt="">
-                  <h4>content</h4>
-              </div>
-              <div class="box2__mitarbeiter">
-                <img src="img/platzhalter2.jpg" alt="">
-                  <h4>content</h4>
-              </div>
-              <div class="box3__mitarbeiter">
-                <img src="img/platzhalter2.jpg" alt="">
-                  <h4>content</h4>
-              </div>
-            </div>
-            <!-- container__mitarbeiter =============================================== -->
-        </div>
-      </div>
-    </section>
 
 
 
@@ -179,9 +145,8 @@
 <footer>
         <div class="footer_container">
             <div class="footer__box1">
-                <a href="Impressum.html" alt="link zum Impressum" title="Impressum">Impressum</a>
+              <a href="Impressum.html" alt="link zum Impressum" title="Impressum">Impressum/AGB</a>
                 <a href="Datenschutz.html" alt="link zum Datenschutz" title="Datenschutz">Datenschutz</a>
-                <a href="#" alt="link zur PDF der AGB" title="AGB">AGB</a>
             </div>
             <div class="footer__box2">
                 <a href="index.html"><img src="img/zrtLogo.png" alt="Link zum Zum Roten Tuch Logo" title="Zum Roten Tuch Logo"></a>
@@ -194,23 +159,23 @@
 </footer>
 <!-- footer__typ1 =============================================== -->
   
-<script>/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-  function myFunction() {
-  var x = document.getElementById("myLinks");
-  x.classList.toggle("show");
-}
+<script>
+  function toggleMenu() {
+    var x = document.getElementById("myLinks");
+    x.classList.toggle("show");
+  }
   </script>
-  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
-  <script type="text/javascript">
-    $(document).on('ready', function() {
-      $(".variable").slick({
-        dots: true,
-        infinite: true,
-        variableWidth: true
-      });
-    });
+  
+  <script>
+  function expandImage(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+  }
   </script>
+
 
 </body>
 </html>

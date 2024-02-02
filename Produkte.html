@@ -1,383 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Produkte</title>
   <link rel="icon" type="image/x-icon" href="/img/favicon.png">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
-  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
-  <style type="text/css">
-    html, body {
-      margin: 0;
-      padding: 0;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    .slider {
-        width: 50%;
-        margin: 100px auto;
-    }
-
-    .slick-slide {
-      margin: 0px 20px;
-    }
-
-    .slick-slide img {
-      width: 100%;
-    }
-
-    .slick-prev:before,
-    .slick-next:before {
-      color: black;
-    }
-
-
-    .slick-slide {
-      transition: all ease-in-out .3s;
-      opacity: .2;
-    }
-    
-    .slick-active {
-      opacity: .5;
-    }
-
-    .slick-current {
-      opacity: 1;
-    }
-    img {
-      width: 15rem;
-      height: 15rem;
-    }
-  </style>
 </head>
+
 <body>
 
-<!-- nav =============================================== -->
- <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- nav =============================================== -->
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
- <!-- Top Navigation Menu -->
- <div class="topnav">
-   <a href="index.html" class="active"><img class="imgnav" src="img/zrtLogo.png" alt="Link zum Zum Roten Tuch Logo" title="Zum Roten Tuch Logo"></a>
-   <!-- Navigation links (hidden by default) -->
-   <div id="myLinks" class="myLink">
-     <div class="navBox1"><a alt="Link zur Über Uns Seite" title="Über Uns" href="ueberUns.html">Über Uns</a></div>
-     <div class="navBox2"><a alt="Link zur Märkte Seite" title="Märkte" href="Maerkte.html">Märkte</a></div>
-     <div class="navBox3"><a href="index.html"><img src="img/zrtLogo.png" alt="Link zum Zum Roten Tuch Logo" title="Zum Roten Tuch Logo"></a></div>
-     <div class="navBox4"><a alt="Link zur Produkte Seite" title="Produkte" href="Produkte.html">Produkte</a></div>
-     <div class="navBox5"><a alt="Link zur Kontakt Seite" title="Kontakt" href="Kontakt.html">Kontakt</a></div>
-   </div>
-   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-     <i class="fa fa-bars"></i>
-   </a>
- </div> 
-<!-- nav =============================================== -->
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <a href="index.html" class="active"><img class="imgnav" src="img/zrtLogo.png" alt="Link zum Zum Roten Tuch Logo"
+        title="Zum Roten Tuch Logo"></a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks" class="myLink">
+      <div class="navBox1"><a alt="Link zur Über Uns Seite" title="Über Uns" href="ueberUns.html">Über Uns</a></div>
+      <div class="navBox2"><a alt="Link zur Märkte Seite" title="Märkte" href="Maerkte.html">Märkte</a></div>
+      <div class="navBox3"><a href="index.html"><img src="img/zrtLogo.png" alt="Link zum Zum Roten Tuch Logo"
+            title="Zum Roten Tuch Logo"></a></div>
+      <div class="navBox4"><a alt="Link zur Produkte Seite" title="Produkte" href="Produkte.html">Produkte</a></div>
+      <div class="navBox5"><a alt="Link zur Kontakt Seite" title="Kontakt" href="Kontakt.html">Kontakt</a></div>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <!-- nav =============================================== -->
 
 
-    <header>
-        <div class="container__headerProdukte">
+  <header>
+    <div class="container__headerProdukte">
+    </div>
+  </header>
+
+  <main>
+
+
+    <!-- container__typ4 =============================================== -->
+    <div class="container__Kategorien">
+      <div class="box1__Kategorien_container">
+        <div id="Kleider" class="box1__Kategorien">
+          <h5>Damen</h5>
         </div>
-    </header>
-
-   <main>
-
-
-    <section>
-    
-    <div class="max__width">
-      <div class="max">
-        <!-- container__BeschreibungProdukte =============================================== -->
-          <div class="container__BeschreibungProdukte">
-            <div class="box1__BeschreibungProdukte">
-                <h2>Produkte</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem perspiciatis temporibus cupiditate natus, dicta incidunt magnam! Distinctio, nobis labore expedita maiores facilis, dicta non aperiam, sapiente quaerat voluptatibus libero perferendis? Voluptatibus necessitatibus sapiente modi earum totam illum, ipsa, libero dolore est voluptatem, ea harum sunt eaque! Corrupti, repellat eaque. Quis dolorem quia, nemo ullam cum molestiae, commodi nesciunt inventore labore vitae sint excepturi possimus eveniet maxime eius quos voluptatem pariatur amet suscipit modi sit.</p>
-            </div>
-            <div class="box2__BeschreibungProdukte">
-            </div>
-          </div>
-        <!-- container__BeschreibungProdukte =============================================== -->
+        <div id="Hosen" class="box2__Kategorien">
+          <h5>Herren</h5>
+        </div>
+        <div id="Ketten" class="box3__Kategorien">
+          <h5>Mäntel & Umhänge</h5>
+        </div>
+        <div id="Handschuhe" class="box4__Kategorien">
+          <h5>Accessoires</h5>
+        </div>
+      </div>
+      <div class="box2__Kategorien_container">
       </div>
     </div>
-    </section>
+    <!-- container__typ4 =============================================== -->
 
-    <section>
-      <div class="max__width">
-        <div class="max">
-          <!-- container__Kategorien =============================================== -->
-          <div class="container__Kategorien">
-            <div id="Kleider" class="box1__Kategorien">
-                <h5>Kleider</h5>
-            </div>
-            <div id="Hosen" class="box2__Kategorien">
-                <h5>Hosen</h5>
-            </div>
-            <div id="Ketten" class="box3__Kategorien">
-                <h5>Ketten</h5>
-            </div>
-            <div id="Handschuhe" class="box4__Kategorien">
-                <h5>Handschuhe</h5>
-            </div>
-          </div>
-          <!-- container__Kategorien =============================================== -->
-      </div>
-     </div>
-  </section>
 
-<!-- switch =============================================== -->
-  <div class="Kleider__Section">
+    <!-- switch =============================================== -->
+    <div class="Kleider__Section">
       <section>
-            <section class="variable slider">
-              <div>
-                <img src="img/Kleider.jpg" alt="">
-              </div>
-              <div>
-                <img src="img/Kleider1.jpg" alt="">
-              </div>
-              <div>
-                <img src="img/Kleider3.jpg" alt="">
-              </div>
-              <div>
-                <img src="img/Kleider4.jpg" alt="">
-              </div>
-              <div>
-                <img src="img/Kleider5.jpg">
-              </div>
-              <div>
-                <img src="img/Kleider6.jpg">
-              </div>
-              <div>
-                <img src="img/Kleider7.jpg">
-              </div>
-              <div>
-                <img src="img/Kleider8.jpg">
-              </div>
-              <div>
-                <img src="img/Kleider9.jpg">
-              </div>
-            </section>
-      <div class="max__width">
-        <div class="max">
-                <!-- container__Produkt =============================================== -->
-                    <div class="container__Produkt">
-                      <div class="box1__Produkt">
-                          <h2>Kleider</h2>
-                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem perspiciatis temporibus cupiditate natus, dicta incidunt magnam! Distinctio, nobis labore expedita maiores facilis, dicta non aperiam, sapiente quaerat voluptatibus libero perferendis? Voluptatibus necessitatibus sapiente modi earum totam illum, ipsa, libero dolore est voluptatem, ea harum sunt eaque! Corrupti, repellat eaque. Quis dolorem quia, nemo ullam cum molestiae, commodi nesciunt inventore labore vitae sint excepturi possimus eveniet maxime eius quos voluptatem pariatur amet suscipit modi sit. Tempore a, dignissimos eius, impedit distinctio, voluptatum repudiandae perferendis suscipit sed eveniet autem minus quas! Minima eos eligendi, ratione temporibus deleniti voluptatibus eum dolor numquam recusandae.</p>
-                      </div>
-                      <div class="box2__Produkt">
-                        <a href="#"><button class="WaschanleitungBTN"><img src="img/Instagram_Logo.png" alt=""></button></a>
-                      </div>
-                    </div>
-                <!-- container__Produkt =============================================== -->
-        </div>
+      <div class="scroll__container">
+        <div class="scroll-container">
+          <img src="img/Damen1.jpg">
+          <img src="img/Damen2.jpg">
+          <img src="img/Damen3.jpg">
+          <img src="img/Damen4.png">
+        </div> 
       </div>
-      </section>
-  </div>
-
-  <div class="Hosen__Section">
-    <section>
-      <section class="variable slider">
-        <div>
-          <img src="img/BurgRot.png" alt="">
-        </div>
-        <div>
-          <img src="img/BurgRot.png" alt="">
-        </div>
-        <div>
-          <img src="img/BurgRot.png" alt="">
-        </div>
-        <div>
-          <img src="img/BurgRot.png" alt="">
-        </div>
-        <div>
-          <img src="http://placehold.it/350x300?text=5">
-        </div>
-        <div>
-          <img src="http://placehold.it/300x300?text=6">
-        </div>
-      </section>
-
-
-      <div class="max__width">
-        <div class="max">
-          <!-- container__Produkt =============================================== -->
-              <div class="container__Produkt">
-                <div class="box1__Produkt">
-                    <h2>Hosen</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem perspiciatis temporibus cupiditate natus, dicta incidunt magnam! Distinctio, nobis labore expedita maiores facilis, dicta non aperiam, sapiente quaerat voluptatibus libero perferendis? Voluptatibus necessitatibus sapiente modi earum totam illum, ipsa, libero dolore est voluptatem, ea harum sunt eaque! Corrupti, repellat eaque. Quis dolorem quia, nemo ullam cum molestiae, commodi nesciunt inventore labore vitae sint excepturi possimus eveniet maxime eius quos voluptatem pariatur amet suscipit modi sit. Tempore a, dignissimos eius, impedit distinctio, voluptatum repudiandae perferendis suscipit sed eveniet autem minus quas! Minima eos eligendi, ratione temporibus deleniti voluptatibus eum dolor numquam recusandae.</p>
-                </div>
-                <div class="box2__Produkt">
-                  <a href="#"><button class="WaschanleitungBTN"><img src="img/Instagram_Logo.png" alt=""></button></a>
-                </div>
-              </div>
-          <!-- container__Produkt =============================================== -->
-        </div>
-      <div>
-    </section>
-  </div>
-
-  <div class="Ketten__Section">
-      <section>
-        <section class="variable slider">
-          <div>
-            <img src="img/BurgRot.png" alt="">
-          </div>
-          <div>
-            <img src="img/BurgRot.png" alt="">
-          </div>
-          <div>
-            <img src="img/BurgRot.png" alt="">
-          </div>
-          <div>
-            <img src="img/BurgRot.png" alt="">
-          </div>
-          <div>
-            <img src="http://placehold.it/350x300?text=5">
-          </div>
-          <div>
-            <img src="http://placehold.it/300x300?text=6">
-          </div>
-        </section>
 
         <div class="max__width">
           <div class="max">
-              <!-- container__Produkt =============================================== -->
-                  <div class="container__Produkt">
-                    <div class="box1__Produkt">
-                        <h2>Ketten</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem perspiciatis temporibus cupiditate natus, dicta incidunt magnam! Distinctio, nobis labore expedita maiores facilis, dicta non aperiam, sapiente quaerat voluptatibus libero perferendis? Voluptatibus necessitatibus sapiente modi earum totam illum, ipsa, libero dolore est voluptatem, ea harum sunt eaque! Corrupti, repellat eaque. Quis dolorem quia, nemo ullam cum molestiae, commodi nesciunt inventore labore vitae sint excepturi possimus eveniet maxime eius quos voluptatem pariatur amet suscipit modi sit. Tempore a, dignissimos eius, impedit distinctio, voluptatum repudiandae perferendis suscipit sed eveniet autem minus quas! Minima eos eligendi, ratione temporibus deleniti voluptatibus eum dolor numquam recusandae.</p>
-                    </div>
-                    <div class="box2__Produkt">
-                      <a href="#"><button class="WaschanleitungBTN"><img src="img/Instagram_Logo.png" alt=""></button></a>
-                    </div>
-                  </div>
-              <!-- container__Produkt =============================================== -->
-          </div>
-        </div>
-      </section>
-  </div>
+            <!-- container__Produkt =============================================== -->
 
-  <div class="Handschuhe__Section">
+            <div class="max__width">
+              <div class="max">
+                <!-- container__Produkt =============================================== -->
+                <div class="container__Produkt">
+                  <div class="box1__Produkt">
+                    <h2>Damen</h2>
+                    <p>Wir verwenden zur Herstellung unserer Bekleidung ausschließlich Naturstoffe wie Leinen, Wolle und
+                      Walkstoff. Wir achten darauf, dass unsere Stoffe aus Europa stammen und orientieren uns bei der
+                      Verarbeitung an der historischen Aufbereitung der jeweiligen Epoche. Wir legen großen Wert auf
+                      ansprechende Farben und sind bemüht dabei dem Wunsch unserer Kunden gerecht zu werden. Natürlich
+                      achten wir dabei darauf, dass wir vorwiegend Farben wählen, die auch damals verwendet wurden.
+                      Sichtbare Nähte fertigen wir von Hand um die Authentizität unserer Produkte zu gewährleisten und
+                      sie optisch aufzuwerten.</p>
+                  </div>
+                  <div class="box2__Produkt">
+                    <a href="Waschanleitung_Zum_Roten_Tuch.pdf"><button class="WaschanleitungBTN"><img
+                          src="img/Waschanleitung.png" alt="Waschanleitung" title="Waschanleitung"></button></a>
+                  </div>
+                </div>
+                <!-- container__Produkt =============================================== -->
+              </div>
+            </div>
+            <!-- container__Produkt =============================================== -->
+          </div>
+          <div>
+      </section>
+    </div>
+
+    <div class="Hosen__Section">
       <section>
-        <section class="variable slider">
-          <div>
-            <img src="img/BurgRot.png" alt="">
-          </div>
-          <div>
-            <img src="img/BurgRot.png" alt="">
-          </div>
-          <div>
-            <img src="img/BurgRot.png" alt="">
-          </div>
-          <div>
-            <img src="img/BurgRot.png" alt="">
-          </div>
-          <div>
-            <img src="http://placehold.it/350x300?text=5">
-          </div>
-          <div>
-            <img src="http://placehold.it/300x300?text=6">
-          </div>
-        </section>
-
-        <div class="max__width">
-          <div class="max">
+        <div class="scroll__container">
+          <div class="scroll-container">
+            <img src="img/Herren1.JPG">
+            <img src="img/Herren2.png">
+            <img src="img/Herren3.JPG">
+            <img src="img/Herren4.JPG">
+          </div> 
+        </div>
+  
+          <div class="max__width">
+            <div class="max">
               <!-- container__Produkt =============================================== -->
+  
+              <div class="max__width">
+                <div class="max">
+                  <!-- container__Produkt =============================================== -->
                   <div class="container__Produkt">
                     <div class="box1__Produkt">
-                        <h2>Handschuhe</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem perspiciatis temporibus cupiditate natus, dicta incidunt magnam! Distinctio, nobis labore expedita maiores facilis, dicta non aperiam, sapiente quaerat voluptatibus libero perferendis? Voluptatibus necessitatibus sapiente modi earum totam illum, ipsa, libero dolore est voluptatem, ea harum sunt eaque! Corrupti, repellat eaque. Quis dolorem quia, nemo ullam cum molestiae, commodi nesciunt inventore labore vitae sint excepturi possimus eveniet maxime eius quos voluptatem pariatur amet suscipit modi sit. Tempore a, dignissimos eius, impedit distinctio, voluptatum repudiandae perferendis suscipit sed eveniet autem minus quas! Minima eos eligendi, ratione temporibus deleniti voluptatibus eum dolor numquam recusandae.</p>
+                      <h2>Herren</h2>
+                      <p>Wir verwenden zur Herstellung unserer Bekleidung ausschließlich Naturstoffe wie Leinen, Wolle und
+                        Walkstoff. Wir achten darauf, dass unsere Stoffe aus Europa stammen und orientieren uns bei der
+                        Verarbeitung an der historischen Aufbereitung der jeweiligen Epoche. Wir legen großen Wert auf
+                        ansprechende Farben und sind bemüht dabei dem Wunsch unserer Kunden gerecht zu werden. Natürlich
+                        achten wir dabei darauf, dass wir vorwiegend Farben wählen, die auch damals verwendet wurden.
+                        Sichtbare Nähte fertigen wir von Hand um die Authentizität unserer Produkte zu gewährleisten und
+                        sie optisch aufzuwerten.</p>
                     </div>
                     <div class="box2__Produkt">
-                      <a href="#"><button class="WaschanleitungBTN"><img src="img/Instagram_Logo.png" alt=""></button></a>
+                      <a href="Waschanleitung_Zum_Roten_Tuch.pdf"><button class="WaschanleitungBTN"><img
+                            src="img/Waschanleitung.png" alt="Waschanleitung" title="Waschanleitung"></button></a>
                     </div>
                   </div>
+                  <!-- container__Produkt =============================================== -->
+                </div>
+              </div>
               <!-- container__Produkt =============================================== -->
-         </div>
-       </div>
-      </section>
-  </div>
-<!-- switch =============================================== -->
+            </div>
+            <div>
+        </section>
+    </div>
 
-</main>
-
-<!-- footer__typ1 =============================================== -->
-<div class="footerTop"></div>
-<footer>
-        <div class="footer_container">
-            <div class="footer__box1">
-                <a href="Impressum.html" alt="link zum Impressum" title="Impressum">Impressum</a>
-                <a href="Datenschutz.html" alt="link zum Datenschutz" title="Datenschutz">Datenschutz</a>
-                <a href="#" alt="link zur PDF der AGB" title="AGB">AGB</a>
-            </div>
-            <div class="footer__box2">
-                <a href="index.html"><img src="img/zrtLogo.png" alt="Link zum Zum Roten Tuch Logo" title="Zum Roten Tuch Logo"></a>
-            </div>
-            <div class="footer__box3">
-                <a href="https://www.facebook.com/zumrotentuch/"><img src="img/Facebook_Logo.png" alt="link zu facebook" title="facebook_logo"></a>
-                <a href="https://www.instagram.com/rotes.tuch/"><img src="img/Instagram_Logo.png" alt="link zu instagram" title="instagram_logo"></a>
-            </div>
+    <div class="Ketten__Section">
+      <section>
+        <div class="scroll__container">
+          <div class="scroll-container">
+            <img src="img/MäntelUmhänge1.jpg">
+            <img src="img/MäntelUmhänge2.jpg">
+            <img src="img/MäntelUmhänge3.jpg">
+            <img src="img/MäntelUmhänge4.JPG">
+          </div> 
         </div>
-</footer>
-<!-- footer__typ1 =============================================== -->
-<script>/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-  function myFunction() {
-  var x = document.getElementById("myLinks");
-  x.classList.toggle("show");
-}
-  </script>
+  
+          <div class="max__width">
+            <div class="max">
+              <!-- container__Produkt =============================================== -->
+  
+              <div class="max__width">
+                <div class="max">
+                  <!-- container__Produkt =============================================== -->
+                  <div class="container__Produkt">
+                    <div class="box1__Produkt">
+                      <h2>Mäntel & Umhänge</h2>
+                      <p>Wir verwenden zur Herstellung unserer Bekleidung ausschließlich Naturstoffe wie Leinen, Wolle und
+                        Walkstoff. Wir achten darauf, dass unsere Stoffe aus Europa stammen und orientieren uns bei der
+                        Verarbeitung an der historischen Aufbereitung der jeweiligen Epoche. Wir legen großen Wert auf
+                        ansprechende Farben und sind bemüht dabei dem Wunsch unserer Kunden gerecht zu werden. Natürlich
+                        achten wir dabei darauf, dass wir vorwiegend Farben wählen, die auch damals verwendet wurden.
+                        Sichtbare Nähte fertigen wir von Hand um die Authentizität unserer Produkte zu gewährleisten und
+                        sie optisch aufzuwerten.</p>
+                    </div>
+                    <div class="box2__Produkt">
+                      <a href="Waschanleitung_Zum_Roten_Tuch.pdf"><button class="WaschanleitungBTN"><img
+                            src="img/Waschanleitung.png" alt="Waschanleitung" title="Waschanleitung"></button></a>
+                    </div>
+                  </div>
+                  <!-- container__Produkt =============================================== -->
+                </div>
+              </div>
+              <!-- container__Produkt =============================================== -->
+            </div>
+            <div>
+        </section>
+    </div>
 
-  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
-  <script type="text/javascript">
-    $(document).on('ready', function() {
-      $(".variable").slick({
-        dots: true,
-        infinite: true,
-        variableWidth: true
-      });
-    });
+    <div class="Handschuhe__Section">
+      <section>
+        <div class="scroll__container">
+          <div class="scroll-container">
+            <img src="img/Accessoires1.png">
+            <img src="img/Accessoires2.JPG">
+            <img src="img/Accessoires3.jpg">
+          </div> 
+        </div>
+  
+          <div class="max__width">
+            <div class="max">
+              <!-- container__Produkt =============================================== -->
+  
+              <div class="max__width">
+                <div class="max">
+                  <!-- container__Produkt =============================================== -->
+                  <div class="container__Produkt">
+                    <div class="box1__Produkt">
+                      <h2>Accessoires</h2>
+                      <p>Wir verwenden zur Herstellung unserer Bekleidung ausschließlich Naturstoffe wie Leinen, Wolle und
+                        Walkstoff. Wir achten darauf, dass unsere Stoffe aus Europa stammen und orientieren uns bei der
+                        Verarbeitung an der historischen Aufbereitung der jeweiligen Epoche. Wir legen großen Wert auf
+                        ansprechende Farben und sind bemüht dabei dem Wunsch unserer Kunden gerecht zu werden. Natürlich
+                        achten wir dabei darauf, dass wir vorwiegend Farben wählen, die auch damals verwendet wurden.
+                        Sichtbare Nähte fertigen wir von Hand um die Authentizität unserer Produkte zu gewährleisten und
+                        sie optisch aufzuwerten.</p>
+                    </div>
+                    <div class="box2__Produkt">
+                      <a href="Waschanleitung_Zum_Roten_Tuch.pdf"><button class="WaschanleitungBTN"><img
+                            src="img/Waschanleitung.png" alt="Waschanleitung" title="Waschanleitung"></button></a>
+                    </div>
+                  </div>
+                  <!-- container__Produkt =============================================== -->
+                </div>
+              </div>
+              <!-- container__Produkt =============================================== -->
+            </div>
+            <div>
+        </section>
+    </div>
+    <!-- switch =============================================== -->
+
+  </main>
+
+
+  <!-- footer__typ1 =============================================== -->
+  <div class="footerTop"></div>
+  <footer>
+    <div class="footer_container">
+      <div class="footer__box1">
+        <a href="Impressum.html" alt="link zum Impressum" title="Impressum">Impressum/AGB</a>
+        <a href="Datenschutz.html" alt="link zum Datenschutz" title="Datenschutz">Datenschutz</a>
+      </div>
+      <div class="footer__box2">
+        <a href="index.html"><img src="img/zrtLogo.png" alt="Link zum Zum Roten Tuch Logo"
+            title="Zum Roten Tuch Logo"></a>
+      </div>
+      <div class="footer__box3">
+        <a href="https://www.facebook.com/zumrotentuch/"><img src="img/Facebook_Logo.png" alt="link zu facebook"
+            title="facebook_logo"></a>
+        <a href="https://www.instagram.com/rotes.tuch/"><img src="img/Instagram_Logo.png" alt="link zu instagram"
+            title="instagram_logo"></a>
+      </div>
+    </div>
+  </footer>
+  <!-- footer__typ1 =============================================== -->
+
+
+  <script>
+    function toggleMenu() {
+      var x = document.getElementById("myLinks");
+      x.classList.toggle("show");
+    }
   </script>
   <script>
-    document.getElementById('Kleider').addEventListener('click', function() {
+    document.getElementById('Kleider').addEventListener('click', function () {
       document.querySelector('.Kleider__Section').style.display = 'block';
       document.querySelector('.Hosen__Section').style.display = 'none';
       document.querySelector('.Ketten__Section').style.display = 'none';
       document.querySelector('.Handschuhe__Section').style.display = 'none';
     });
-    
-    document.getElementById('Hosen').addEventListener('click', function() {
+
+    document.getElementById('Hosen').addEventListener('click', function () {
       document.querySelector('.Kleider__Section').style.display = 'none';
       document.querySelector('.Hosen__Section').style.display = 'block';
       document.querySelector('.Ketten__Section').style.display = 'none';
       document.querySelector('.Handschuhe__Section').style.display = 'none';
     });
-    
-    document.getElementById('Ketten').addEventListener('click', function() {
+
+    document.getElementById('Ketten').addEventListener('click', function () {
       document.querySelector('.Kleider__Section').style.display = 'none';
       document.querySelector('.Hosen__Section').style.display = 'none';
       document.querySelector('.Ketten__Section').style.display = 'block';
       document.querySelector('.Handschuhe__Section').style.display = 'none';
     });
-    
-    document.getElementById('Handschuhe').addEventListener('click', function() {
+
+    document.getElementById('Handschuhe').addEventListener('click', function () {
       document.querySelector('.Kleider__Section').style.display = 'none';
       document.querySelector('.Hosen__Section').style.display = 'none';
       document.querySelector('.Ketten__Section').style.display = 'none';
       document.querySelector('.Handschuhe__Section').style.display = 'block';
     });
-    
+
     // Ausblenden aller Abschnitte am Anfang
     document.querySelector('.Kleider__Section').style.display = 'block';
     document.querySelector('.Hosen__Section').style.display = 'none';
     document.querySelector('.Ketten__Section').style.display = 'none';
     document.querySelector('.Handschuhe__Section').style.display = 'none';
-    </script>
+  </script>
 
 </body>
+
 </html>
