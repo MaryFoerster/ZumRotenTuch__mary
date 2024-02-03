@@ -745,6 +745,17 @@
 }
 /* container__headerProdukte =============================================== */
 
+/* container__headerMaerkte =============================================== */
+.container__headerMaerkte {
+  width: 100%;
+  padding-top: 4rem;
+  height: 35vh;
+  color: white;
+  margin-top: 0em;
+background-color: var(--primary-color-grün);
+}
+/* container__headerMaerkte =============================================== */
+
 
 
 
@@ -1357,7 +1368,7 @@ footer {
 .input {
   width: 25rem;
   height: 3rem;
-  background-color: rgb(199, 199, 199);
+  background-color: var(--primary-color-grün);
   border: none;
   color: white;
   margin-bottom: 2rem;
@@ -1365,7 +1376,7 @@ footer {
 .textBox {
   width: 25rem;
   height: 15rem;
-  background-color: rgb(199, 199, 199);
+  background-color: var(--primary-color-grün);
   border: none;
   color: white;
   margin-bottom: 1rem;
@@ -1652,7 +1663,7 @@ footer {
 
     /* container__Arccordion =============================================== */
     .section__panel {
-      margin-top: 5rem;
+      margin-top: 8rem;
       margin-bottom: 10rem;
     }
     .section__panel h6 {
@@ -1753,6 +1764,20 @@ footer {
 
 
 /* container__MaerkteKarte =============================================== */
+
+.Maerkte__h1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.Maerkte__h1 h1{
+  width: 13rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
  .container__MaerkteKarte {
   display: grid;
   grid-template-columns: [outer-start] 1fr
@@ -1761,7 +1786,9 @@ footer {
   grid-template-rows: 1fr 1fr;
 }
 .container__MaerkteKarte {
-margin-top: 5rem;
+  margin-top: 5rem;
+  height: 120vh;
+  margin-left: 2rem;
 }
 .container__MaerkteKarte h6 {
   margin: 0;
@@ -1777,17 +1804,34 @@ margin-top: 5rem;
   align-items: center;
   padding-left: 2rem;
   padding-right: 2rem;
+  height: 20rem;
 }
 
 .box2__MaerkteKarte {
   grid-column: outer-start / outer-end;
-  background-color: rgb(244, 136, 96);
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
+  height: 30rem;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1130px) {
+
+  .Maerkte__h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .Maerkte__h1 h1{
+    width: 73rem;
+    display: flex;
+    padding-left: 3rem;
+    justify-content: start;
+    align-items: center;
+  }
   .container__MaerkteKarte {
     display: grid;
     grid-template-columns: [outer-start] 1fr
@@ -1796,23 +1840,28 @@ margin-top: 5rem;
   }
   .container__MaerkteKarte {
     width: 100%;
+    height: 60vh;
   }
   
   .box1__MaerkteKarte {
     grid-column: outer-start / center-end;
     display: flex;
-    padding-left: 8rem;
-    padding-right: 8rem;
+    justify-content: start;
+    align-items: start;
+    padding-left: 0rem;
+    padding-right: 0rem;
     width: 40rem;
     height: 30rem;
   }
   
   .box2__MaerkteKarte {
+    height: 30rem;
     grid-column: center-end / outer-end;
-    background-color: rgb(244, 136, 96);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
+    padding-left: 4rem;
+    padding-right: 0rem;
     width: 30rem;
     height: 30rem;
   }
@@ -1820,59 +1869,82 @@ margin-top: 5rem;
 
 /* container__MaerkteKarte =============================================== */
 
-
-
-
-
+/* Texte__Karte =============================================== */
+.box2__MaerkteKarte h3 {
+  font-size: 1.3rem;
+  margin: 0;
+  padding: 0;
+}
+.box2__MaerkteKarte h2 {
+  font-size: 2rem;
+  margin: 0;
+  margin-bottom: 2rem;
+  padding: 0;
+}
+/* Texte__Karte =============================================== */
 
 /* svg----------------------------------------- */
 #Ebene_2 {
-  width: 35rem;
+  width: 25rem;
 }
 
 #Kärnten:hover {
-  fill: red;
+  opacity: 0.5;
   cursor: pointer;
 }
 #Vorarlberg:hover {
-  fill: red;
+  opacity: 0.5;
   cursor: pointer;
 }
 #Steiermark:hover {
-  fill: red;
+  opacity: 0.5;
   cursor: pointer;
 }
 #Italien:hover {
-  fill: red;
+  opacity: 0.5;
   cursor: pointer;
 }
 #Niederösterreich:hover {
-  fill: red;
+  opacity: 0.5;
+  cursor: pointer;
+}
+#Niederösterreich2:hover {
+  opacity: 0.5;
   cursor: pointer;
 }
 #Burgenland:hover {
-  fill: red;
+  opacity: 0.5;
   cursor: pointer;
 }
 #Deutschland:hover {
-  fill: red;
+  opacity: 0.5;
+  cursor: pointer;
+}
+#Deutschland2:hover {
+  opacity: 0.5;
   cursor: pointer;
 }
 #Wien:hover {
-  fill: red;
+  opacity: 0.5;
   cursor: pointer;
 }
 #Oberösterreich:hover {
-  fill: red;
+  opacity: 0.5;
   cursor: pointer;
 }
 #Salzburg:hover {
-  fill: red;
+  opacity: 0.5;
   cursor: pointer;
 }
 #Tirol:hover {
-  fill: red;
+  opacity: 0.5;
   cursor: pointer;
+}
+
+@media screen and (min-width:900px){
+  #Ebene_2 {
+    width: 40rem;
+  }
 }
 
 
