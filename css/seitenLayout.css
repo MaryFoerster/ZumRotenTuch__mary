@@ -4,6 +4,7 @@
     width: 100%;
     background-color: var(--primary-color-grün);
     color: white;
+    padding-top: 2rem;
   }
   
   .container__headerHome {
@@ -23,7 +24,7 @@
   }
   .box1__headerHome img {
     height: 15rem;
-    width: 10rem;
+    width: 15rem;
   }
   
   .box2__headerHome {
@@ -48,23 +49,34 @@
     }
     .container__headerHome {
       width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-left: 7rem;
+      padding-top: 2rem;
     }
-    
+    .box1__headerHome img {
+      height: 20rem;
+      width: 20rem;
+    }
     .box1__headerHome {
       grid-column: outer-start / center-start;
       display: flex;
       justify-content: end;
       align-items: center;
+      padding: 0;
+      margin: 0;
+      width: 30;
+      padding-bottom: 4rem;
     }
     
     .box2__headerHome {
       grid-column: center-start / outer-end;
       display: flex;
-      width:50rem ;
+      width:38rem ;
       flex-direction: column;
       justify-content: center;
       align-items: start;
-      padding-left: 8rem;
+      padding-left: 2rem;
       padding-right: 8rem;
       margin-top: 5rem;
     }
